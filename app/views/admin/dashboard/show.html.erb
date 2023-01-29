@@ -1,3 +1,6 @@
 <h1>Admin::Dashboard#show</h1>
-<p>product count is: </p>
-<%=@product_count%>
+<p>product count is: <%=@product_count%></p>
+
+<p>Cataloge count is: <%=@cat_count%></p>
+
+<%= link_to 'Click here to display your prodcuts', [:admin, :products], class: "nav-link" %>
